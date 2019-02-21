@@ -3,10 +3,7 @@ image:
 install:
 - pip install flask
 - pip install Flask-Testing
-- pip install --user master.models
-- pip install master.master
-- pip install apscheduler.jobstores.memory
-- pip install apscheduler.executors.pool
+- pip install apscheduler
 test_script:
 - python tests/__init__.py
 
