@@ -3,6 +3,7 @@ image:
 install:
 - pip install -r requirements.txt
 test_script:
-- python master/__init__.py
+- python build master/__init__.py
+- python build master/master.py
+- python build master/models.py
 
-build: off
