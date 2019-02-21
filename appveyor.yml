@@ -1,0 +1,7 @@
+image: 
+- Visual Studio 2017
+
+test_script:
+- python __init__.py
+projects_tests.py
+build: off
