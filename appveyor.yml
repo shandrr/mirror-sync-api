@@ -5,6 +5,13 @@ install:
 
 build: false
 test_script:
+- python examples/add_project.py
+- python examples/add_slave.py
+- python examples/create_api_user.py
+- python examples/remove_project.py
+- python examples/remove_slave.py
+- python examples/update_project_basic.py
+- python examples/update_project_schedule.py
 - python master/__init__.py
 - python master/master.py
 - python master/models.py
