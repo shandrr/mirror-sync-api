@@ -1,7 +1,8 @@
 image: 
 - Visual Studio 2017
-
+install:
+- pip install flask
 test_script:
-- python master/master.py
+- python tests/__init__.py
 
 build: off
