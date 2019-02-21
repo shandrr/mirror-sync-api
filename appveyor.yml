@@ -2,7 +2,7 @@ image:
 - Visual Studio 2017
 install:
 - pip install flask
-- pip install flask.ext.testing
+- pip install Flask-Testing
 - pip install master.models
 - pip install master.master
 - pip install apscheduler.jobstores.memory
