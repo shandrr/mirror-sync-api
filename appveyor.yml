@@ -3,6 +3,6 @@ image:
 install:
 - pip install -r requirements.txt
 test_script:
-- python master/master.py
+- python master/__init__.py
 
 build: off
