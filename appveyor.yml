@@ -2,7 +2,7 @@ image:
 - Visual Studio 2017
 install:
 - pip install flask
-- pip install Flask-Testing
+- pip install Flask.Testing
 - pip install apscheduler
 test_script:
 - python tests/__init__.py
