@@ -3,5 +3,5 @@ image:
 
 test_script:
 - python __init__.py
-projects_tests.py
+- python projects_tests.py
 build: off
