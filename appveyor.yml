@@ -5,7 +5,7 @@ install:
 
 build: false
 test_script:
-- python  master/__init__.py
-- python  master/master.py
-- python master/models.py
+- python test --master/__init__.py
+- python test --master/master.py
+- python test --master/models.py
 
