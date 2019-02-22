@@ -5,6 +5,7 @@ install:
 
 build: false
 test_script:
+- python settings.py
 - python examples/add_project.py
 - python examples/add_slave.py
 - python examples/create_api_user.py
